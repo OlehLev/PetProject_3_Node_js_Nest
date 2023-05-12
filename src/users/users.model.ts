@@ -19,7 +19,7 @@ export class User extends Model<User, UserCreationAttrs> {
     @Column({ type: DataType.BOOLEAN, defaultValue: false })
     banner: boolean;
 
-    @Column({ type: DataType.STRING, allowNull: false })
+    @Column({ type: DataType.STRING, defaultValue: false })
     bunReason: string;
 
 }
