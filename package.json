@@ -21,17 +21,19 @@
   },
   "dependencies": {
     "@nestjs/common": "^9.0.0",
-    "@nestjs/config": "^2.3.1",
+    "@nestjs/config": "^2.3.4",
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
     "@nestjs/sequelize": "^9.0.2",
+    "@nestjs/swagger": "^7.1.16",
     "cross-env": "^7.0.3",
-    "pg": "^8.10.0",
+    "pg": "^8.11.3",
     "pg-hstore": "^2.3.4",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0",
-    "sequelize": "^6.31.1",
-    "sequelize-typescript": "^2.1.5"
+    "sequelize": "^6.35.1",
+    "sequelize-typescript": "^2.1.6",
+    "swagger-ui-express": "^5.0.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
@@ -40,7 +42,7 @@
     "@types/express": "^4.17.13",
     "@types/jest": "29.5.0",
     "@types/node": "18.15.11",
-    "@types/sequelize": "^4.28.15",
+    "@types/sequelize": "^4.28.19",
     "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
