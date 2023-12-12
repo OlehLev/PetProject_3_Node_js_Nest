@@ -22,11 +22,11 @@ export class User extends Model<User, UserCreationAttrs> {
     @Column({ type: DataType.STRING, allowNull: false })
     password: string;
 
-    @ApiProperty({ example: 'true', description: 'bun or not bun' })
+    @ApiProperty({ example: 'true', description: 'ban or not ban' })
     @Column({ type: DataType.BOOLEAN, defaultValue: false })
     banner: boolean;
 
-    @ApiProperty({ example: 'Useed bad words', description: 'bunReason' })
+    @ApiProperty({ example: 'Useed bad words', description: 'banReason' })
     @Column({ type: DataType.STRING, defaultValue: false })
     bunReason: string;
 
